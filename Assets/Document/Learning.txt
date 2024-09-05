@@ -1,0 +1,23 @@
+1. Vector:
+	1.1: Vector tuong tac voi Position cua Object voi Vector2(x,y) va Vector3(x,y,z).
+	1.2: Vector tuong tac voi RigidBody. 
+	1.3: Su dung tranform.localScale voi Vecor3 de doi chieu Object.
+2. Di Chuyen:
+	2.1. Di chuyen bang Vector: su dung Translate(Static).
+	2.2. Di chuyen bang Rigidboy:
+		2.2.1. Su dung MovePosition(Kinematic): rb.MovePosition(...).
+		2.2.2. Su dung velocity(Kinematic+Dynamic): rb.velocity(...).
+	2.3. Di chuyen bang AddForce(...)(Dynamic).
+3. Nhay:
+	3.1. Nhay can phai xac dinh xem co dang cham dat khong
+	3.2. Khi ket thuc nhay thi phai roi dan deu
+	3.3. Nhay phai co gioi han tam nhay.
+4. Di chuyen Object:
+	4.1. Chon 2 vi tri A, B va 1 Vector2
+	4.2. set A hoac B la vi tri target, khi Object gan A hoac B thi doi target thanh cai nguoc lai.
+	4.3. Cho 1 collider moi de xac nhan Nhan vat co dung tren Object khong de nhan vat khong bi roi.
+	4.4. Su dung OnDrawingGizmos de xem duong di chuyen.
+5. Tuong tac giua cac Collider:
+	5.1. Collision co 3 trang thai: Enter, Stay va Exit
+	5.2. Phat hien vat the tuong tac thong qua cac tag.
+	5.3. khi 1 collider su dung trigger thi ta ko dung Oncollision ma dung OnTrigger.
